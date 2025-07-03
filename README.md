@@ -1,46 +1,48 @@
-Setup Instructions 
+#Setup Instructions 
 
-# 1. Clone the repository
+1. Clone the repository
 git clone https://github.com/your-username/pipeline-editor.git
 cd pipeline-editor
 
-# 2. Install dependencies
+2. Install dependencies
 npm install
 
-# 3. Start the development server
+3. Start the development server
 npm start
 
 After running npm start, the app will be available at: http://localhost:3000
 
 
-Libraries Used & Key Architectural Decisions
+# Libraries Used & Key Architectural Decisions
 Core Libraries
 
-# React:
+React:
 Framework used to build a component-based, reactive UI.
 
 
-# React Flow:
+React Flow:
 Powers the graph editor – rendering nodes, handling edges, and user interactions like dragging, connecting, and zooming.
 
-# dagre:
+dagre:
 Used for auto-layout – rearranges nodes in a clean left-to-right flow while preserving DAG constraints.
 
-# react-icons:
+react-icons:
 Lightweight icon library for intuitive UI buttons (add, layout).
 
-# react-tooltip:
+react-tooltip:
 Adds tooltips to improve usability and accessibility.
 
 
 
-Demo link : https://pipe-line-editor-qdjs2xgh6-naveens-projects-a8157cb7.vercel.app
+# Demo link : 
+             https://pipe-line-editor-qdjs2xgh6-naveens-projects-a8157cb7.vercel.app
 
 
-Screen recording link :  https://youtu.be/adnj213CrWE 
+# Screen recording link :  
+                         https://youtu.be/adnj213CrWE 
 
 
-Challenges Faced & Solutions
+# Challenges Faced & Solutions
 
 
 1. Following Valid DAG Rules
