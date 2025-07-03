@@ -1,7 +1,7 @@
-#Setup Instructions 
+# Setup Instructions 
 
 1. Clone the repository
-git clone https://github.com/your-username/pipeline-editor.git
+git clone https://github.com/Jnaveen1/PipeLineEditor-DAG-.git
 cd pipeline-editor
 
 2. Install dependencies
