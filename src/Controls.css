@@ -1,0 +1,21 @@
+.control-button {
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  padding: 8px 14px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-button {
+  left: 10px;
+  background-color: #2563eb;
+}
+
+.layout-button {
+  left: 120px;
+  background-color: #10b981;
+}

@@ -1,0 +1,24 @@
+.canvas-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.dag-status {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  z-index: 10;
+  background: #f9fafb;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.dag-status.valid {
+  color: #16a34a;
+}
+
+.dag-status.invalid {
+  color: #dc2626;
+}
